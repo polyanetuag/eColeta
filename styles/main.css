@@ -9,8 +9,13 @@ posicionamento, alinhamentos
 
 :root {
     --title-color: #322153;
+    --primary-color:#34cb79;
 }
 
+* {   /* atalho para todos os seletores*/
+    margin: 0;
+    padding: 0;
+}
 
 html {
     font-family: 'Roboto', sans-serif                    
@@ -18,6 +23,7 @@ html {
 
 body {
     background: #f0f0f5;
+    -webkit-font-smoothing: antialiased
 }
 
 a {
@@ -30,7 +36,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #page-home {
-        height: 125vh;
+        height: 100vh;
 
         background: url('../icones/home-background.svg') no-repeat;
         background-position: 35vw bottom;
@@ -40,8 +46,12 @@ h1, h2, h3, h4, h5, h6 {
 #page-home .content {
     width: 90%;
     max-width: 1100px;
+    height: 100%;
 
     margin: 0 auto;
+
+    display: flex;
+    flex-direction: column;
 }
 
 #page-home header {
@@ -71,8 +81,89 @@ h1, h2, h3, h4, h5, h6 {
 
 #page-home main {
     max-width: 560px;
+    flex:1;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 #page-home main h1 {
     font-size: 54px;
+}
+
+#page-home main p {
+    font-size: 24px;
+    line-height: 38px;
+    margin-top: 24px;
+}
+
+#page-home main a {
+    width: 100%;
+    max-width: 360px;
+    height: 72px;
+    border-radius: 8px ;
+
+    display: flex;
+    align-items: center;
+
+    margin-top: 40px;
+    background: var(--primary-color);
+
+    transition: 400ms;        /*Estética*/
+}
+
+#page-home main a:hover {         /*propriedade para mudar a cor do botão ao passar o mouse*/
+    background-color: #2fb86e;
+}
+
+#page-home main a span {
+    width: 72px;
+    height: 72px;
+
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+
+    background-color: rgba(0, 0, 0, 0.08);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#page-home main a span::after {
+    content: '';
+    background-image: url('../icones/search.svg');
+
+    width: 20px;
+    height: 20px;
+}
+#page-home main a strong {
+    flex: 1;
+    color: white;
+
+    text-align:center;
+}
+
+@media (max-width:900px) {              /*Conjunto de regras específicas para configurações*/
+    #page-home {
+        background-position-x: 70vw;
+    }
+
+    #page-home .content {
+        align-items: center;
+        text-align: center;
+}                            
+    #page-home header a {
+        position: absolute;
+        bottom: 48px;
+
+        left: 50%;
+        transform: translateX(-50%);       /* mudança na posição/eixo x(ponto médio)*/
+    }
+    
+    #page-home main {
+        align-items: center;
+    }
+
 }
