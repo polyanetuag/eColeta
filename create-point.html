@@ -22,7 +22,7 @@
 
                 <header>
                    <img src="/icones/logo.svg" alt="Logomarca">
-                    <a href="http://google.com">            <!-- jeito de fazer links (inline)-->
+                    <a href="index.html">            <!-- jeito de fazer links (inline)-->
                         <span></span>
                     Voltar para home
                 </a>           
@@ -39,25 +39,25 @@
 
                         <div class="field">
                             <label for="name">Nome da entidade</label>
-                            <input type="text" name='name'>
+                            <input type="text" name='name' required>
                         </div>
 
                         <div class="field-group">
                             <div class="field">
                                 <label for="address">Endereço</label>
-                                <input type="text" name='address'>
+                                <input type="text" name='address'required>
                             </div>
 
                             <div class="field">
                                 <label for="address2">Número/Complemento</label>
-                                <input type="text" name='address2'>
+                                <input type="text" name='address2'required>
                             </div>
                         </div>
 
                         <div class="field-group">
                             <div class="field">
                                 <label for="state">Estado</label>
-                                <select name="uf">
+                                <select name="uf" required>
                                     <option value=''>Selecione o Estado</option>
                                 </select>
 
@@ -66,7 +66,7 @@
 
                             <div class="field">
                                 <label for="city">Cidade</label>
-                                <select name="city" disabled>
+                                <select name="city" disabled required>
                                     <option value=''>Selecione a Cidade</option>
                                 </select>
                             </div>
@@ -76,20 +76,53 @@
                     </fieldset>
 
 
+                    <fieldset>
+                        <legend>
+                            <h2>Itens de coleta</h2>
+                        </legend>
 
+                        <div class="items-grid">
+                            <li date-id="1">
+                                <img src="/icones/lampadas.svg" alt="Lâmpadas">
+                                <span>Lâmpadas</span>
+                            </li>
 
+                            <li date-id="2">
+                                <img src="/icones/baterias.svg" alt="Pilhas e Baterias">
+                                <span>Pilhas e Baterias</span>
+                            </li>
 
+                            <li date-id="3">
+                                <img src="/icones/papeis-papelao.svg" alt="Papéis e Papelão">
+                                <span>Papéis e Papelão</span>
+                            </li>
 
+                            <li date-id="4">
+                                <img src="/icones/eletronicos.svg" alt="Resíduos Eletrônicos">
+                                <span>Resíduos Eletrônicos</span>
+                            </li>
+
+                            <li date-id="5">
+                                <img src="/icones/organicos.svg" alt="Resíduos Orgânicos">
+                                <span>Resíduos Orgânicos</span>
+                            </li>
+
+                            <li date-id="6">
+                                <img src="/icones/oleo.svg" alt="Óleo de cozinha">
+                                <span>Óleo de cozinha</span>
+                            </li>
+                        </div>
+
+                        <input type="hidden" name="items">
+
+                    </fieldset>
 
                     <button type="submit">Cadastrar ponto de coleta</button>
 
                 </form>
            
-
         </div>
 
     <script src="/scripts/create-point.js"></script>
-
-
 </body>
 </html>
