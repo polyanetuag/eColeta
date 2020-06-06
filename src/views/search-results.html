@@ -18,6 +18,7 @@
         <main>
 
 {% if total > 0 %}
+
             <h4>
                 <strong>{{total}} pontos</strong>
                 encontrado(s).
@@ -27,7 +28,7 @@
 
              {% for place in places %}
 
-                    <div class="card">
+                <div class="card">
                     <img src="{{ place.image }}" alt="{{ place.name }}">
                     <h1>{{ place.name }}</h1>
                     <h3>{{ place.items }}</h3>
@@ -44,12 +45,14 @@
 
             </div>
 
-    {%else%}
+{%else%}
 
-    <h4><strong>Nenhum</strong> local encontrado.</h4>
+        <h4><strong>Nenhum</strong> local encontrado.</h4>
 
-    {% endif %}
+{% endif %}
 
-            
+
+           
+
         </main>
 {% endblock content %}
