@@ -30,7 +30,7 @@ Além disso, as pessoas que precisam descartar tais resíduos, podem pesquisar p
   <img width= '800' src="https://camo.githubusercontent.com/a3d153262faf551a92186f9cd4d6d30e836578a9/68747470733a2f2f692e696d6775722e636f6d2f7371784c4562782e6a7067">
 </p>
 
-- Página de cadastro dos pontos de coleta
+- Página de cadastro dos pontos de coleta disponíveis
 <p align="center">
   <img width= '400' src="https://github.com/mateusfg7/Ecoleta/raw/master/docs/screenshots/register.png">
 </p>
