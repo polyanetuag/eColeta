@@ -1,6 +1,3 @@
-<p align="center">
-  <img width= '300' src="https://camo.githubusercontent.com/530412f00d6c04d51cd0de1abe6f12d0f2bef904/68747470733a2f2f692e696d6775722e636f6d2f746842335445692e706e67">
-</p>
 
 <h1 align="center">Projeto sobre coleta de resíduos </h1>
 
