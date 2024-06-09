@@ -17,7 +17,7 @@ No projeto, as empresas ou entidades poderão se cadastrar na plataforma web env
   - resíduos orgânicos
   - e óleo de cozinha<br><br>
   
-Além disso, as pessoas que precisam descartar tais resíduos, podem pesquisar por cidade e visualizar os pontos de coleta disponíveis na região.
+Além disso, as pessoas que precisam descartar os resíduos, podem pesquisar por cidade e visualizar os pontos de coleta disponíveis na região.
 
 ---
 ### 🖌Interfaces
