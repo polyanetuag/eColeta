@@ -15,7 +15,7 @@ No projeto, as empresas ou entidades poderão se cadastrar na plataforma web env
   - papéis e papelão
   - resíduos eletrônicos
   - resíduos orgânicos
-  - e óleo de cozinha<br><br>
+  - e óleo de cozinha.<br><br>
   
 Além disso, as pessoas que precisam descartar os resíduos, podem pesquisar por cidade e visualizar os pontos de coleta disponíveis na região.
 
