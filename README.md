@@ -37,10 +37,6 @@ No projeto, as empresas ou entidades poderão se cadastrar na plataforma enviand
   <img width= '800' src="https://github.com/mateusfg7/Ecoleta/raw/master/docs/screenshots/search.png">
 </p>
 
-
-
-
-
 ---
 ### 🚀Tecnologias
 
