@@ -42,7 +42,7 @@ No projeto, as empresas ou entidades poderão se cadastrar na plataforma enviand
 
 O projeto possui as seguintes tecnologias:
 - [Node.js](https://nodejs.org/pt)
-- Express
+- [Express](https://expressjs.com/pt-br/)
 - SQLite
 - Nunjucks<br><br>
 
