@@ -41,7 +41,7 @@ No projeto, as empresas ou entidades poderão se cadastrar na plataforma enviand
 ### 🚀Tecnologias
 
 O projeto possui as seguintes tecnologias:
-- Node.js
+- [Node.js](https://nodejs.org/pt)
 - Express
 - SQLite
 - Nunjucks<br><br>
