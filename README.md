@@ -44,7 +44,7 @@ O projeto possui as seguintes tecnologias:
 - [Node.js](https://nodejs.org/pt)
 - [Express](https://expressjs.com/pt-br/)
 - [SQLite](https://sqlitebrowser.org/)
-- Nunjucks<br><br>
+- [Nunjucks](https://www.npmjs.com/package/nunjucks)<br><br>
 
 ---
 Desenvolvido com ❤ por Polyane Tuag
