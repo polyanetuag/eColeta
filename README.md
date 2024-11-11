@@ -7,7 +7,7 @@
 
  Além disso, as pessoas que buscam descartar tais resíduos, podem pesquisar por cidade e visualizar os pontos de coleta disponíveis na sua região.
 
-No projeto, as empresas ou entidades poderão se cadastrar na plataforma enviando os seguintes dados:
+No projeto, as empresas ou entidades poderão fazer o cadastro na plataforma enviando os seguintes dados:
 
 - Uma imagem do ponto de coleta;
 - Nome da entidade, email, whatsapp e o endereço para que possa aparecer no mapa;
