@@ -19,7 +19,6 @@ No projeto, as empresas ou entidades poderão fazer o cadastro na plataforma env
   - resíduos orgânicos
   - e óleo de cozinha.<br><br>
 
----
 ### 🖌Interfaces
 
 - Página Inicial
