@@ -36,7 +36,7 @@ No projeto, as empresas ou entidades poderão fazer o cadastro na plataforma env
   <img width= '800' src="https://github.com/mateusfg7/Ecoleta/raw/master/docs/screenshots/search.png">
 </p>
 
----
+
 ### 🚀Tecnologias
 
 O projeto possui as seguintes tecnologias:
