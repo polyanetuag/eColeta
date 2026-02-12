@@ -1,5 +1,5 @@
 
-<h1 align="center">♻️ Projeto sobre coleta de resíduos ♻️ </h1>
+<h1 align="center">♻️ Ecoleta ♻️ </h1>
 
 ### 📚Sobre
 
