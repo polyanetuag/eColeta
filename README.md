@@ -9,7 +9,7 @@
 
 No projeto, as empresas ou entidades poderão fazer o cadastro na plataforma enviando os seguintes dados:
 
-- Uma imagem do ponto de coleta;
+- Uma imagem do local/ponto de coleta;
 - Nome da entidade, email, whatsapp e o endereço para que possa aparecer no mapa;
 - Cadastrar os itens de coleta:
   - lâmpadas
