@@ -37,7 +37,7 @@ No projeto, as empresas ou entidades poderão fazer o cadastro na plataforma env
 </p>
 
 
-### 🚀Tecnologias
+### 🚀Tecnologias utilizadas
 
 O projeto possui as seguintes tecnologias:
 - [Node.js](https://nodejs.org/pt)
