@@ -39,7 +39,7 @@ No projeto, as empresas ou entidades poderão fazer o cadastro na plataforma env
 
 ### 🚀Tecnologias utilizadas
 
-O projeto possui as seguintes tecnologias:
+O projeto usa as seguintes tecnologias:
 - [Node.js](https://nodejs.org/pt)
 - [Express](https://expressjs.com/pt-br/)
 - [SQLite](https://sqlitebrowser.org/)
