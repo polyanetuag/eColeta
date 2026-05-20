@@ -11,7 +11,7 @@ No projeto, as empresas ou entidades poderão fazer o cadastro na plataforma env
 
 - Uma imagem do local/ponto de coleta;
 - Nome da entidade, email, whatsapp e o endereço para que possa aparecer no mapa;
-- Cadastrar os itens de coleta:
+- Cadastrar os itens de coleta, como:
   - lâmpadas
   - pilhas e baterias
   - papéis e papelão
